@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="about">
+        <div class="container">
+            <nav>
+                <img src="image/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="index.html" style="--i:1;">Home</a></li>
+                    <li><a href="about.html" style="--i:2;">About</a></li>
+                    <li><a href="services.html" style="--i:3;">Services</a></li>
+                    <li><a href="portfolio.html" style="--i:4;">Portfolio</a></li>
+                    <li><a href="contact.html" style="--i:5;">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/17.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As a Final-Year B.Tech Student, I Specialize in Python Development, Machine Learning, and Backend
+                        Technologies. I have hands-on experience with MongoDB, HTML, CSS, React.js, and Next.js. My
+                        recent Project, AI-Powered Interview Preparation System, combines React.js, Next.js, Python, ML
+                        models, and MongoDB to create an Intelligent Platform that helps users simulate and prepare for
+                        Real Interview Environments. This Project earned the Second Prize at My College’s TechYuva
+                        Innovation Event. With a strong passion for Backend Engineering, I am eager to begin My career
+                        as a Software Developer, Focusing on scalable APIs and AI-Integrated Systems.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Training & Certifications</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend</span><br>HTML, CSS</li>
+                            <li><span>Backend</span><br>Python, Django, API</li>
+                            <li><span>Machine Learning</span><br>Python, TensorFlow, Scikit-learn</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>6 Weeks</span><br>Certification in Agentic AI for 6 Weeks From IBM Skills Build
+                            </li>
+                            <li><span>4 Weeks</span><br>Certification in Machine Learning and Deep Learning for 4 Weeks
+                                From Geekonik</li>
+                            <li><span>45 Days</span><br>Summer Training at Techpile Pvt. Lvt</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2022</span><br>UI/UX Design Training at Govt.Girls Polytechnic Gorakhpur</li>
+                            <li><span>2023-2026 Currently</span><br>B.tech Form Buddha Institute Of Technology Gorakhpur
+                            </li>
+                            <li><span>2019-2022</span><br>Diploma Form Govt.Girls Polytechnic Gorakhpur</li>
+                            <li><span>2016-2017</span><br>High School Form Sarsawti Inter College Naharpur Gorakhpur
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>@ Shweta Made With <i class="fas fa-heart"></i> by Easy</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

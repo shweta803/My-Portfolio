@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="contact">
+        <div class="container">
+            <nav>
+                <img src="image/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="index.html" style="--i:1;">Home</a></li>
+                    <li><a href="about.html" style="--i:2;">About</a></li>
+                    <li><a href="services.html" style="--i:3;">Services</a></li>
+                    <li><a href="portfolio.html" style="--i:4;">Portfolio</a></li>
+                    <li><a href="contact.html" style="--i:5;">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>dreamsk0905@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>8400239341</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://github.com/shweta803"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/dreamsk_90607?igsh=OXhtejZ1a2s4Yjgy"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/shweta-kannojiya -b48773372"><i
+                                class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="image/Shweta CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <div>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>@ Shweta Made With <i class="fas fa-heart"></i> by Easy</p>
+        </div>
+
+        <script src="index.js"></script>
+</body>
+
+</html>
