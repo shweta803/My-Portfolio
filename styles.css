@@ -376,6 +376,7 @@ nav ul li a:hover::after{
 }
 .work:hover .layer{
     height: 100%;
+    width: 100%;
 }
 .btn{
     display: block;
@@ -571,7 +572,7 @@ nav .fas{
     }
     nav ul{
         position: fixed;
-        background: #6f1632;
+        background: linear-gradient( to right, #0f0c29, #302b63, #24243e);
         top: 0;
         right:-200px;
         width: 200px;
